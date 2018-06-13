@@ -47,7 +47,8 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true"
         android:layout_above="@+id/play_button"
-        android:id="@+id/frameLayout">
+        android:id="@+id/frameLayout"
+        android:onClick="sendImage" >
 
     </FrameLayout>
 </RelativeLayout>
